@@ -1,0 +1,11 @@
+.body {
+    margin-top: 5em ;
+    border: 1px solid blue;
+    /* height: 85vh; */
+}
+
+@media only screen and (max-width: 512px) {
+    .body {
+        width: 100vw; 
+    }
+}

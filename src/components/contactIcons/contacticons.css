@@ -1,0 +1,7 @@
+svg {
+    height: 32px;
+    width: auto;
+    margin-right: 5px;
+    display: flex;
+    align-items: flex-start;
+}
