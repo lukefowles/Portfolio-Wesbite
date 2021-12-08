@@ -9,7 +9,7 @@
     z-index: 999;
     align-items: center;
     background-color: white;
-    width: 80%;
+    width: 100%;
     border: 1px solid black;
 }
 
@@ -22,10 +22,11 @@
 }
 
 .menu-Icon {
-    font-size: 32px;
+    width: 32px;
+    height: 32px;
     color: blueviolet;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    /* padding-right: 5px;
+    padding-bottom: 5px; */
 }
 
 /* .contact-icon {

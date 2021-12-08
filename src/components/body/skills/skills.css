@@ -1,0 +1,66 @@
+.skills {
+    display: grid;
+    grid-template-areas: "header header header "
+                         "js java c"
+                         "html css react"
+                         "psql spring git";
+
+    align-items: space-between;
+    justify-content: center;
+}
+
+h1 {
+    grid-area: header;
+}
+
+.skillsIcon {
+    width: 96px;
+    height: 96px;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+}
+
+.skillsIcon:hover {
+    transform: scale(1.05);
+}
+
+#js {
+    grid-area: js;
+}
+
+#java {
+    grid-area: java;
+}
+
+#c {
+    grid-area: c;
+}
+
+#html {
+    grid-area: html;
+}
+
+#css {
+    grid-area: css;
+}
+
+#react {
+    grid-area: react;
+}
+
+#psql {
+    grid-area: psql;
+}
+
+#spring {
+    grid-area: spring;
+}
+
+#git {
+    grid-area: git;
+}
+
+
+
+
+

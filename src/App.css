@@ -6,7 +6,7 @@ html {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: auto;
   border: 1px solid black;
   /* padding: 1em; */
