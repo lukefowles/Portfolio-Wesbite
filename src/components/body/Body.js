@@ -11,14 +11,17 @@ function Body() {
                 <AboutMe>
                 </AboutMe>
             </section> 
+            <hr/>
             <section id= 'projects'>
                 <Projects>
                 </Projects>
             </section> 
+            <hr/>
             <section id = 'skills'>
                 <Skills>
                 </Skills>
             </section>  
+            <hr/>
         </div>
     )
 }

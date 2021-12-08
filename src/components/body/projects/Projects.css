@@ -1,0 +1,20 @@
+.project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align:center;
+    height: 90vh; 
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+
+ .individual-project {
+    padding: 10px 5px 5px 10px;
+    border-bottom: 1px solid blueviolet;
+    font-size: 36px;
+    display: flex;
+    flex-grow: 1;
+    
+ }

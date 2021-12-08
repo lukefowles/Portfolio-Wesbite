@@ -11,9 +11,10 @@ function Header() {
     const [isOpen, setIsOpen] = useState(true);
     return (
         <div className="header">
+            <div className="contact-icons">
             <Github />
-            <Linkedin />
-            {/* {<div className="logo">Luke Fowles</div>} */}
+            <Linkedin /> 
+            </div>
             <div className="menu">
                 <div className="webMenu">
                     <Web />

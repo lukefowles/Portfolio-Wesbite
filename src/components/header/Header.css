@@ -1,9 +1,9 @@
 .header {
     display: flex;
     justify-content: space-between;
-    flex: 1;
-    padding: 5px;
-    /* position: relative; */
+    /* flex: 1; */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
     position: fixed;
     top: 0px;
     z-index: 999;
@@ -15,18 +15,30 @@
 
 .menu {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     justify-content: flex-end;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 .menu-Icon {
-    font-size: 24px;
+    font-size: 32px;
     color: blueviolet;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
-.contact-icon {
+/* .contact-icon {
     height: 24px;
     display: none;
+} */
+
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 .mobileMenu {
@@ -35,13 +47,6 @@
 
 .webMenu {
     display: flex;
-}
-
-.logo {
-    display: flex;
-    font-size: 36px;
-    color: blueviolet;
-    font-weight: 800;
 }
 
 @media only screen and (max-width: 720px){
