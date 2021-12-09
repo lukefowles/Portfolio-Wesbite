@@ -6,7 +6,7 @@ function Mobile(props) {
         <div className='mobile'>
            <div className = 'close-icon' onClick = {() => props.setIsOpen(!props.isOpen)}>
            {/* <i class="fi fi-sr-cross-circle"></i> */}
-           <img className= "close-Icon" src="../../../../close-icon.svg" alt="close icon"></img>
+           <img className= "close-Icon" src="../../../../cross.png" alt="cross icon"></img>
            </div>
            <div className = 'mobile-options'>
            <div className = "mobile-option">

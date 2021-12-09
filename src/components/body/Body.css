@@ -4,6 +4,10 @@
     /* height: 85vh; */
 }
 
+#aboutMe {
+    border-bottom: 1px solid blueviolet;
+}
+
 @media only screen and (max-width: 512px) {
     .body {
         width: 100vw; 

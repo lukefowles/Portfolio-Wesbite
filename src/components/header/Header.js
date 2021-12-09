@@ -8,7 +8,7 @@ import Linkedin from '../contactIcons/linkedin';
 
 function Header() {
     //React hook so that app menu only shows when not clicked
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="header">
             <div className="contact-icons">
